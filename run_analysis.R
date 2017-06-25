@@ -9,7 +9,7 @@
 #  5. From dataset 'df', creates a second dataset 'df_mean' with the average of
 #    each variable for each activity/subject.
 #
-# Note, there are dependencies on labraries as follows:
+# Note, there are dependencies on libraries as follows:
 library(data.table)
 library(stringi)
 library(plyr)
