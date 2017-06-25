@@ -35,12 +35,11 @@ prior to proceeding further:
 
 For example, the original column `tGravityAcc-mean()-X` becomes `Time.GravityAccelerometer.mean.X`.
 
-4. 
- read up activity id's from both sets
- read up activity labels
- merge id's and labels for activity
- read up subject id's from both sets
- create 1st data frame `df` by joining frames `df,acdf,subj` at once by `rowid`
+4. read up activity id's from both sets; 
+ read up activity labels; 
+ merge id's and labels for activity; 
+ read up subject id's from both sets; 
+ create 1st data frame `df` by joining frames `df,acdf,subj` at once by `rowid` ;
  then dropping `rowid,Activity_id` 
 
 5. create 2nd data frame 'df_mean' by  
